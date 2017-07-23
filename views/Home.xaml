@@ -1,0 +1,39 @@
+<Grid
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	
+	<Grid>
+		<StackPanel Orientation="Vertical" Margin="5,5,0,0">
+            
+			<Label Content="Event Controls" HorizontalAlignment="Stretch" Height="40" FontWeight="Bold" FontSize="20" Foreground="LightSkyBlue" Margin="0,0,0,0" VerticalAlignment="Top" />
+        
+		    <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,5" VerticalAlignment="Top"/>
+   
+		
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Content="Progress value:" Width="100"/>
+                <TextBox x:Name="pgTextBox" Width="200" Text="" />
+            </StackPanel>
+			
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <Label Content="Update value :" Width="100"/>
+                <Button x:Name="btnUpdate" Content="Update" Width="50"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="10,10,0,0">
+                <Label Content="Normal ProgressBar:"/>
+                <ProgressBar x:Name="pgProgressbar" Minimum="0" Maximum="100" Value="75" Height="20" HorizontalAlignment="Left" Width="300"/>
+				
+            </StackPanel>
+
+        </StackPanel>
+	
+	
+	
+	
+	
+    </Grid>
+	
+</Grid>
